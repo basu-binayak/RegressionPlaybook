@@ -1,0 +1,82 @@
+format: jb-book
+root: intro
+
+chapters:
+  - file: simple_linear_regression/index
+    title: Simple Linear Regression
+    sections:
+      - file: simple_linear_regression/fundamentals
+      - file: simple_linear_regression/estimation
+      - file: simple_linear_regression/inference
+      - file: simple_linear_regression/assumptions
+
+  - file: multiple_linear_regression/index
+    title: Multiple Linear Regression
+    sections:
+      - file: multiple_linear_regression/model_formulation
+      - file: multiple_linear_regression/estimation
+      - file: multiple_linear_regression/interpretation
+      - file: multiple_linear_regression/assumptions
+
+  - file: model_selection/index
+    title: Selecting the Best Regression Equation
+    sections:
+      - file: model_selection/criteria
+      - file: model_selection/subset_selection
+      - file: model_selection/regularization
+      - file: model_selection/practical_guidelines
+
+  - file: multicollinearity/index
+    title: Multicollinearity
+    sections:
+      - file: multicollinearity/detection
+      - file: multicollinearity/consequences
+      - file: multicollinearity/remedies
+
+  - file: model_adequacy/index
+    title: Model Adequacy Checking
+    sections:
+      - file: model_adequacy/residual_analysis
+      - file: model_adequacy/lack_of_fit
+      - file: model_adequacy/diagnostic_plots
+
+  - file: influential_observations/index
+    title: Influential Observations
+    sections:
+      - file: influential_observations/leverage
+      - file: influential_observations/cooks_distance
+      - file: influential_observations/dffits_dfbetas
+
+  - file: transformations_weighting/index
+    title: Transformations and Weighting
+    sections:
+      - file: transformations_weighting/response_transformations
+      - file: transformations_weighting/predictor_transformations
+      - file: transformations_weighting/weighted_least_squares
+
+  - file: dummy_variables/index
+    title: Dummy Variables
+    sections:
+      - file: dummy_variables/encoding_categorical_data
+      - file: dummy_variables/interpretation
+      - file: dummy_variables/interactions
+
+  - file: polynomial_regression/index
+    title: Polynomial Regression Models
+    sections:
+      - file: polynomial_regression/modeling_nonlinearity
+      - file: polynomial_regression/overfitting
+      - file: polynomial_regression/model_diagnostics
+
+  - file: generalized_linear_models/index
+    title: Generalized Linear Models
+    sections:
+      - file: generalized_linear_models/glm_framework
+      - file: generalized_linear_models/common_glms
+
+  - file: nonlinear_estimation/index
+    title: Non-Linear Estimation
+    sections:
+      - file: nonlinear_estimation/nonlinear_models
+      - file: nonlinear_estimation/estimation_methods
+      - file: nonlinear_estimation/practical_examples
