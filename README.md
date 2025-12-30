@@ -84,5 +84,4 @@ RegressionPlaybook/
 This repository focuses on **interpretability, diagnostics, and sound modeling practices**, making regression a tool for reasoning, not just prediction.
 
 ---
-* write a **Preface / Introduction chapter**
-* or align this README for **academic vs ML vs industry** audiences
+
